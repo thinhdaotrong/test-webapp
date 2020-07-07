@@ -1,0 +1,68 @@
+{
+  "name": "@hoa/boilerplate-single",
+  "version": "3.0.3",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "4.0.0-rc.0",
+    "antd": "^4.2.2",
+    "clone": "^2.1.2",
+    "history": "^4.10.1",
+    "hoa-redux": "git+ssh://git@github.com/Hogarcontrols-com/hoa-redux.git#3d0e27681fd01f9c42c38a074599533e0713a718",
+    "jwt-decode": "^2.2.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0",
+    "localforage": "^1.7.3",
+    "localforage-observable": "^2.0.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-range-slider": "^0.3.2",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dev-utils": "^10.2.1",
+    "react-dom": "^16.11.0",
+    "react-dropzone": "^11.0.1",
+    "react-images-upload": "^1.2.8",
+    "react-infinite-scroller": "^1.2.4",
+    "react-intl": "^2.9.0",
+    "react-ionicons": "^3.1.4",
+    "react-redux": "^7.1.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "redux": "^4.0.4",
+    "redux-devtools": "^3.5.0",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.1",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^4.4.0",
+    "styled-theme": "^0.3.3"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.2",
+    "customize-cra": "^1.0.0-alpha.0",
+    "react-app-rewired": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "redux/hoa/reducers/**/*.{js}"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
